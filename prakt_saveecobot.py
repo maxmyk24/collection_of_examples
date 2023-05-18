@@ -16,7 +16,7 @@ pm25_data.sort_values('logged_at', inplace=True)
 
 # Побудова лінійної діаграми
 plt.figure(figsize=(10, 6))
-plt.plot(pm25_data['logged_at'], pm25_data['value'])  # Заменил 'pm25' на 'value'
+plt.plot(pm25_data['logged_at'], pm25_data['value'])  # Заміна 'pm25' на 'value'
 
 # Налаштування осей і заголовка
 plt.xlabel('Дата забору проби')
